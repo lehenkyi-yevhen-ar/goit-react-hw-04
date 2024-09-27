@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react"
-import SearchBar from "./SearchBar/SearchBar"
+import SearchBar from "./components/SearchBar/SearchBar"
 import { fetchImages } from "./services/api"
-import ImageGallery from "./ImageGallery/ImageGallery"
-import Loader from "./Loader/Loader"
-import ErrorMessage from "./ErrorMessage/ErrorMessage"
-import LoadMoreBtn from "./LoadMoreBtn/LoadMoreBtn"
-import ImageModal from "./ImageModal/ImageModal"
+import ImageGallery from "./components/ImageGallery/ImageGallery"
+import Loader from "./components/Loader/Loader"
+import ErrorMessage from "./components/ErrorMessage/ErrorMessage"
+import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn"
+import ImageModal from "./components/ImageModal/ImageModal"
 
 const App = () => {
   const [images, setImages] = useState([])

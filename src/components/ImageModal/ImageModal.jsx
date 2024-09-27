@@ -20,6 +20,7 @@ const customStyles = {
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: 'transparent',
+      pointerEvents: 'none',
     },
   };
 
