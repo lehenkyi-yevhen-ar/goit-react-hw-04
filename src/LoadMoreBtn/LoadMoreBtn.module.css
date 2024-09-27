@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: teal;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(6, 107, 107);
+  }
+}
